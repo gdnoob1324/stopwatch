@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'LAB디지털';
+    src: url('DS-DIGII.TTF') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.stopwatch {
+    font-family: 'LAB디지털';
+    text-align: center;
+
+    margin: 50vh auto;
+    transform: translateY(-50%);
+    width: calc(6.3cm * 2);
+    height: calc(5.6cm * 2);
+    background: darkturquoise;
+
+    border-radius: calc(1.5cm * 2);
+    border: 0 solid transparent;
+}
+
+.screen {
+    font-size: calc(1.5cm * 2);
+    position: absolute;
+    margin: auto;
+    margin-top: calc((0.9cm * 2));
+    background: green;
+    height: calc(1.5cm * 2);
+    width: calc(3.8cm * 2);
+    left: 50%;
+    transform: translateX(-50%);
+
+    border-radius: calc(0.1cm * 2);
+    border: calc(0.1cm * 2) solid lightskyblue;
+}
+
+.buttons {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: calc(0.25cm * 2);
+    color: white;
+
+    position: absolute;
+    margin: auto;
+    margin-top: calc((2.6cm * 2));
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: calc(6.3cm * 2);
+    height: calc(5.6cm * 2);
+
+    text-align: center;
+}
+
+.START {
+    margin-top: 0.5cm;
+}
