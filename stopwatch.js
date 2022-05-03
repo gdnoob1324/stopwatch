@@ -1,8 +1,9 @@
 let timerId;
 let time = 0;
-let  min, sec;
+let min, sec;
 
 var screen = document.getElementById("screen")
+
 screen.innerText = "00:00"
 
 function getTimeFormatString() {
