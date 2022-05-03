@@ -65,3 +65,41 @@ button {
     margin: 0 calc(0.25cm * 2);
     background: skyblue;
 }
+
+@media screen and (max-width: 512px) {
+    .stopwatch {
+        width: calc(6.3cm);
+        height: calc(5.6cm);
+        border-radius: calc(1.5cm);
+        box-shadow: 0 0 calc(0.1cm) black;
+    }
+
+    .screen {
+        font-size: calc(1.5cm);
+        margin-top: calc((0.9cm));
+        height: calc(1.5cm);
+        width: calc(3.8cm);
+
+        border-radius: calc(0.1cm);
+        border: calc(0.1cm) solid lightskyblue;
+        box-shadow: 0 0 calc(0.1cm) white;
+    }
+
+    .buttons {
+        font-size: calc(0.25cm);
+        margin-top: calc((2.6cm));
+        width: calc(6.3cm);
+        height: calc(5.6cm);
+    }
+
+    .START {
+        margin-top: calc(0.5cm);
+    }
+
+    button {
+        border-radius: calc(0.1cm);
+        padding: calc(0.1cm) calc(0.25cm);
+        box-shadow: 0 0 calc(0.1cm) black;
+        margin: 0 calc(0.25cm);
+    }
+}
